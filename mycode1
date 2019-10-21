@@ -1,0 +1,26 @@
+#include<stdio.h>
+int main()
+{
+int row,col,i,j;
+printf("enter the number of the rows and columns");
+scanf("%d",&row,&col);
+int mat[i][j];
+printf("enter the  number of the elements for matrix formation");
+for(i=0;i<row;i++)
+{
+for(j=0;j<col;j++)
+{
+scanf("%d"&mat[i][j]);
+}
+printf("\n");
+}
+//taking the tranpose of the above matrix
+for(i=0;i<col;i++)
+{
+for(j=0;j<row;j++)
+{
+printf("%d",mat[i][j]);
+}
+printf("\n");
+}
+}
